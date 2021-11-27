@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2970095 */
+  src: url('iconfont.woff2?t=1638004098500') format('woff2'),
+       url('iconfont.woff?t=1638004098500') format('woff'),
+       url('iconfont.ttf?t=1638004098500') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-shop"], [class*=" icon-shop"]/*这里有空格*/
+
+{ font-family: "iconfont" !important;
+
+font-size: 16px;
+
+font-style: normal;
+
+-webkit-font-smoothing: antialiased;
+
+-moz-osx-font-smoothing: grayscale; }    
+
+.icon-shopmima:before {
+  content: "\e620";
+}
+
+.icon-shopyiliaohangyedeICON-:before {
+  content: "\e643";
+}
+

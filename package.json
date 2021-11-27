@@ -5,12 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
-    "element-ui": "^2.4.5",
+    "element-plus": "^1.0.2-beta.28",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
@@ -29,6 +29,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^7.0.0",
-    "vue-cli-plugin-element": "^1.0.1"
+    "less": "^4.1.2",
+    "less-loader": "^5.0.0",
+    "vue-cli-plugin-element-plus": "0.0.13"
   }
 }

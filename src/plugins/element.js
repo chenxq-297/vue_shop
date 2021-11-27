@@ -1,4 +1,11 @@
-import Vue from 'vue'
-import { Button } from 'element-ui'
+import { ElButton, ElForm, ElFormItem, ElInput } from 'element-plus'
+import { ElMessage } from 'element-plus'
 
-Vue.use(Button)
+export default (app) => {
+  app.use(ElButton)
+  app.use(ElForm)
+  app.use(ElFormItem)
+  app.use(ElInput)
+  app.config.globalProperties.$message=ElMessage
+}
+
