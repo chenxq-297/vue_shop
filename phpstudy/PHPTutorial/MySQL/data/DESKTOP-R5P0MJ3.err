@@ -77,3 +77,30 @@ InnoDB: buffer...
 211129 21:55:50 [Note] Event Scheduler: Loaded 0 events
 211129 21:55:50 [Note] MySQLa: ready for connections.
 Version: '5.5.53'  socket: ''  port: 3306  MySQL Community Server (GPL)
+211129 23:35:46 [Note] Plugin 'FEDERATED' is disabled.
+MySQLa: File '.\mysql\plugin.MYD' not found (Errcode: 2)
+MySQLa: Can't find file: 'plugin' (errno: 2)
+211129 23:35:46 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+211129 23:35:46 InnoDB: The InnoDB memory heap is disabled
+211129 23:35:46 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+211129 23:35:46 InnoDB: Compressed tables use zlib 1.2.3
+211129 23:35:46 InnoDB: Initializing buffer pool, size = 47.0M
+211129 23:35:46 InnoDB: Completed initialization of buffer pool
+211129 23:35:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+211129 23:35:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+211129 23:35:46  InnoDB: Waiting for the background threads to start
+211129 23:35:47 InnoDB: 5.5.53 started; log sequence number 9979295
+211129 23:35:47 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+211129 23:35:47 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+211129 23:35:47 [Note] Server socket created on IP: '0.0.0.0'.
+211129 23:35:47 [Warning] Can't open and lock time zone table: File '.\mysql\time_zone_leap_second.MYD' not found (Errcode: 2) trying to live without them
+211129 23:35:47 [ERROR] Can't open the mysql.func table. Please run mysql_upgrade to create it.
+211129 23:35:47 [Note] Event Scheduler: Loaded 0 events
+211129 23:35:47 [Note] MySQLa: ready for connections.
+Version: '5.5.53'  socket: ''  port: 3306  MySQL Community Server (GPL)
